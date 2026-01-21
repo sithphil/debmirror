@@ -1,3 +1,4 @@
 mirror/
 *.bak
 *.tar.*
+mirrorbuild.sh
