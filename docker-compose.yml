@@ -1,12 +1,17 @@
 version: '3'
 
-services: 
+services:
 
     mirror:
-        build: .
-        command: bash mirrorbuild.sh
+        build:
+            context: .
+            dockerfile: debmirror.Dockerfile
+        # command: bash mirrorbuild.sh
+        command: [bash, '/root/mirrorbuild.sh']
         volumes:
             - "./mirror:/mirror"
+            - "./:/root"
+        restart: "no"
 
     server:
         build:

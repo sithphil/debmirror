@@ -1,0 +1,65 @@
+Attaching to debmirror_mirror_1
+[36mmirror_1  |[0m Mirroring to /mirror/mirror/archive.ubuntu.com/ubuntu from http://archive.ubuntu.com/ubuntu/
+[36mmirror_1  |[0m Arches: amd64
+[36mmirror_1  |[0m Dists: bionic,bionic-security,bionic-updates,bionic-backports
+[36mmirror_1  |[0m Sections: main,restricted,universe,multiverse
+[36mmirror_1  |[0m Pdiff mode: use
+[36mmirror_1  |[0m Will clean up after mirroring.
+[36mmirror_1  |[0m Attempting to get lock ...
+[36mmirror_1  |[0m Updating remote trace files (using rsync) ...
+[36mmirror_1  |[0m receiving incremental file list
+[36mmirror_1  |[0m deleting project/trace/f8ef3def59b9
+[36mmirror_1  |[0m ./
+[36mmirror_1  |[0m project/
+[36mmirror_1  |[0m project/trace/
+[36mmirror_1  |[0m project/trace/juju-2afd81-prod-ubuntu-syncproxy-0
+[36mmirror_1  |[0m               0   0%    0.00kB/s    0:00:00               29 100%   28.32kB/s    0:00:00 (xfr#1, to-chk=5/10)
+[36mmirror_1  |[0m project/trace/juju-98d295-prod-launchpad-22
+[36mmirror_1  |[0m               0   0%    0.00kB/s    0:00:00               29 100%    7.08kB/s    0:00:00 (xfr#2, to-chk=0/10)
+[36mmirror_1  |[0m Getting meta files ...
+[36mmirror_1  |[0m [  0%] Getting: dists/bionic/Release... 	 #** GET http://archive.ubuntu.com/ubuntu/dists/bionic/Release ==>   0%  1%  2%  4%  5%  6%  8%  9% 11% 12% 14% 16% 18% 20% 21% 23% 25% 26% 27% 29% 30% 32% 34% 35% 37% 38% 39% 40% 41% 43% 45% 46% 47% 48% 49% 50% 52% 54% 56% 57% 58% 59% 60% 61% 62% 64% 66% 67% 68% 70% 71% 73% 74% 76% 78% 79% 81% 83% 84% 86% 87% 89% 91% 92% 93% 94% 95% 96% 97% 98% 99%100%200 OK (10s)
+[36mmirror_1  |[0m ok
+[36mmirror_1  |[0m [  0%] Getting: dists/bionic/InRelease... 	 #** GET http://archive.ubuntu.com/ubuntu/dists/bionic/InRelease ==>   0%  2%  4%  5%  6%  7%  9% 10% 12% 14% 16% 17% 19% 21% 23% 25% 27% 28% 30% 32% 33% 35% 37% 39% 40% 42% 44% 45% 47% 49% 51% 52% 54% 56% 58% 59% 61% 63% 65% 66% 68% 70% 71% 73% 74% 75% 77% 79% 80% 81% 82% 84% 85% 87% 89% 90% 92% 94% 96% 97% 99%100%200 OK (3s)
+[36mmirror_1  |[0m ok
+[36mmirror_1  |[0m [  0%] Getting: dists/bionic/Release.gpg... 	 #** GET http://archive.ubuntu.com/ubuntu/dists/bionic/Release.gpg ==>  83%100%200 OK
+[36mmirror_1  |[0m ok
+[36mmirror_1  |[0m Ubuntu Release file: using Suite (bionic).
+[36mmirror_1  |[0m [  0%] Getting: dists/bionic-security/Release... 	 #** GET http://archive.ubuntu.com/ubuntu/dists/bionic-security/Release ==>   1%  3%  5%  8% 11% 14% 17% 21% 25% 28% 33% 37% 41% 45% 49% 53% 57% 61% 65% 69% 73% 77% 81% 85% 89% 93% 96%100%200 OK (2s)
+[36mmirror_1  |[0m ok
+[36mmirror_1  |[0m [  0%] Getting: dists/bionic-security/InRelease... 	 #** GET http://archive.ubuntu.com/ubuntu/dists/bionic-security/InRelease ==>   1%  3%  5%  8% 11% 14% 17% 20% 23% 24% 28% 32% 36% 40% 44% 48% 52% 56% 60% 64% 68% 72% 76% 80% 84% 88% 92% 96%100%200 OK (1s)
+[36mmirror_1  |[0m ok
+[36mmirror_1  |[0m [  0%] Getting: dists/bionic-security/Release.gpg... 	 #** GET http://archive.ubuntu.com/ubuntu/dists/bionic-security/Release.gpg ==>  82%100%200 OK (1s)
+[36mmirror_1  |[0m ok
+[36mmirror_1  |[0m Ubuntu Release file: using Suite (bionic-security).
+[36mmirror_1  |[0m [  0%] Getting: dists/bionic-updates/Release... 	 #** GET http://archive.ubuntu.com/ubuntu/dists/bionic-updates/Release ==>   1%  3%  5%  8% 10% 11% 15% 17% 21% 23% 27% 31% 34% 38% 42% 44% 48% 52% 54% 58% 63% 67% 71% 75% 79% 83% 87% 91% 95% 98%100%200 OK (1s)
+[36mmirror_1  |[0m ok
+[36mmirror_1  |[0m [  0%] Getting: dists/bionic-updates/InRelease... 	 #** GET http://archive.ubuntu.com/ubuntu/dists/bionic-updates/InRelease ==>   1%  3%  5%  8% 11% 13% 14% 17% 20% 23% 25% 28% 31% 34% 35% 39% 43% 47% 51% 54% 58% 62% 66% 71% 75% 79% 83% 87% 88% 92% 96%100%200 OK (1s)
+[36mmirror_1  |[0m ok
+[36mmirror_1  |[0m [  0%] Getting: dists/bionic-updates/Release.gpg... 	 #** GET http://archive.ubuntu.com/ubuntu/dists/bionic-updates/Release.gpg ==>  82%100%200 OK
+[36mmirror_1  |[0m ok
+[36mmirror_1  |[0m Ubuntu Release file: using Suite (bionic-updates).
+[36mmirror_1  |[0m [  0%] Getting: dists/bionic-backports/Release... 	 #** GET http://archive.ubuntu.com/ubuntu/dists/bionic-backports/Release ==>   1%  3%  5%  8% 10% 11% 13% 17% 21% 25% 29% 33% 37% 41% 45% 49% 53% 57% 61% 65% 69% 74% 78% 82% 86% 90% 94% 98%100%200 OK (1s)
+[36mmirror_1  |[0m ok
+[36mmirror_1  |[0m [  0%] Getting: dists/bionic-backports/InRelease... 	 #** GET http://archive.ubuntu.com/ubuntu/dists/bionic-backports/InRelease ==>   1%  5%  9% 13% 17% 21% 26% 30% 32% 37% 41% 45% 48% 52% 56% 60% 64% 68% 72% 76% 80% 84% 88% 92% 96%100%200 OK (1s)
+[36mmirror_1  |[0m ok
+[36mmirror_1  |[0m [  0%] Getting: dists/bionic-backports/Release.gpg... 	 #** GET http://archive.ubuntu.com/ubuntu/dists/bionic-backports/Release.gpg ==>  82%100%200 OK
+[36mmirror_1  |[0m ok
+[36mmirror_1  |[0m Ubuntu Release file: using Suite (bionic-backports).
+[36mmirror_1  |[0m Parsing Packages and Sources files ...
+[36mmirror_1  |[0m Get Translation files ...
+[36mmirror_1  |[0m Get DEP-11 metadata files ...
+[36mmirror_1  |[0m Get command-not-found metadata files ...
+[36mmirror_1  |[0m Files to download: 2901 kiB
+[36mmirror_1  |[0m [ 27%] Getting: pool/universe/f/fonts-monlam/fonts-monlam_1.0-1_all.deb... 	 #** GET http://archive.ubuntu.com/ubuntu/pool/universe/f/fonts-monlam/fonts-monlam_1.0-1_all.deb ==> 500 Status read failed: Connection reset by peer
+[36mmirror_1  |[0m Download of pool/universe/f/fonts-monlam/fonts-monlam_1.0-1_all.deb failed: 500 Status read failed: Connection reset by peer
+[36mmirror_1  |[0m [ 27%] Getting: pool/universe/libq/libqtdee/libqtdee2_0.2.4-0ubuntu1_amd64.deb... 	 #** GET http://archive.ubuntu.com/ubuntu/pool/universe/libq/libqtdee/libqtdee2_0.2.4-0ubuntu1_amd64.deb ==>   4% 25% 46% 68% 74% 82% 89% 97%100%200 OK (1s)
+[36mmirror_1  |[0m ok
+[36mmirror_1  |[0m Downloaded 1087 kiB in 58s at 18.75 kiB/s.
+[36mmirror_1  |[0m Everything OK. Moving meta files ...
+[36mmirror_1  |[0m Cleanup mirror.
+[36mmirror_1  |[0m All done.
+[36mmirror_1  |[0m Errors:
+[36mmirror_1  |[0m  Download of pool/universe/f/fonts-monlam/fonts-monlam_1.0-1_all.deb failed: 500 Status read failed: Connection reset by peer
+[36mmirror_1  |[0m Failed to download files (1 errors)!
+[36mdebmirror_mirror_1 exited with code 1
+[0m

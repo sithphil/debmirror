@@ -2,6 +2,7 @@
 ## THE NEXT LINE IS NEEDED THE REST OF THE LINES STARTING WITH A # CAN BE DELETED
 
 #!/bin/bash
+set -ex
 
 ## Setting variables with explanations.
 
@@ -32,7 +33,10 @@ release=bionic,bionic-security,bionic-updates,bionic-backports
 # CHANGE "*" to equal the mirror you want to create your mirror from. au. in Australia  ca. in Canada.
 # This can be found in your own /etc/apt/sources.list file, assuming you have Ubuntu installed.
 #
-server=archive.ubuntu.com
+# server=archive.ubuntu.com
+server=mirrors.aliyun.com
+echo "server = $server"
+# exit 0
 
 # Dir=          -r      # Path from the main server, so http://my.web.server/$dir, Server dependant
 #
@@ -55,6 +59,7 @@ outPath=/mirror/mirror/$server/ubuntu
 # Start script
 #
 debmirror       -a $arch \
+                --nocleanup \
                 --no-source \
                 -s $section \
                 -h $server \
