@@ -1,5 +1,5 @@
 bionic:
-	cp mirrorbuild_bionc.sh mirrorbuild.sh
+	cp mirrorbuild_bionic.sh mirrorbuild.sh
 	docker-compose build
 	docker-compose up mirror
 

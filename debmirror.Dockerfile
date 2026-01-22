@@ -10,5 +10,5 @@ RUN apt-get install debmirror gpg ubuntu-keyring -y
 RUN mkdir /mirrorkeyring
 RUN gpg --no-default-keyring --keyring /mirrorkeyring/trustedkeys.gpg --import /usr/share/keyrings/ubuntu-archive-keyring.gpg
 
-COPY ./scripts/mirrorbuild_*.sh /usr/bin/
+COPY ./mirrorbuild_*.sh /usr/bin/
 RUN chmod +x /usr/bin/mirrorbuild_*.sh
